@@ -11,3 +11,4 @@ URL="https://www.google.com.hk/search?hl=chi&q="+Text
 chrome_path="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 webbrowser.register('chrome', None,webbrowser.BackgroundBrowser(chrome_path))
 webbrowser.get('chrome').open_new(URL)
+>>>>>>> 8cf962be4690c5a34bc8e961feae69d877c8513e
